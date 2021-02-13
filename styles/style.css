@@ -59,6 +59,8 @@ h1{
     background-color: cornflowerblue;
     height: 100%;
     width: 18vw;
+    padding: 20px;
+    margin: 15px;
 }
 .hero_portrait{
     display: flex;
@@ -116,4 +118,8 @@ hr{
 }
 .footer{
     background-color: brown;
+}
+.bignews{
+    display: flex;
+    justify-content: space-between;
 }
