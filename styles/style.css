@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
 }
-
 html {
     font-size: 62.5%;
     font-family: Arial, Helvetica, sans-serif;
@@ -176,16 +175,10 @@ hr{
     border-top: 1.5px solid;
 }
 .footer_div1{
-    /* display: flex;
-    justify-content: center;
-    flex-wrap: wrap; */
     border: 1px solid black;
     margin-right: 10px;
 }
 .footer_div2{
-    /* display: flex;
-    justify-content: center;
-    flex-wrap: wrap; */
     border: 1px solid black;
     margin-left: 10px;
 }
@@ -220,4 +213,137 @@ hr{
 .aside h4{
     margin-top: 5px;
     text-align: center;
+}
+@media(min-width:360px){
+h1{
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+h2{
+    margin: 6px;
+}
+body{
+    width: fit-content;
+    font-size: 10px;
+}
+.header{
+    border: 2px solid black;
+    width: auto;
+}
+.header_list-name{
+    margin: 8px 10px 10px 5px;
+}
+.news{
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0;
+    border-top: 1px solid black;
+    padding: 0;
+    border: none;
+}
+.hero_title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+}
+.hero_portrait{
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+.hero_portrait-h2{
+    width: fit-content;
+}
+.aside{
+    display: none;
+}
+.newslogo img{
+    display: none;
+}
+.news_2{
+    display: inline-block;
+}
+.new_2-section{
+    border-right: none;
+}
+.news_2-title{
+    font-size:small;
+    border-bottom: 1px solid black;
+}
+.p{
+    width: 31%;
+}
+.p2{
+    width: 48%;
+}
+.news_bolivar3{
+    font-size: 3rem;
+}
+.news_bolivar2{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.footer_1{
+    padding: .5rem;
+}
+}
+@media(min-width:768px){
+h2{
+    font-size: x-large;
+}
+.newslogo img{
+    display: inline;
+    width: 100px;
+}
+.hero_portrait{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+.hero_portrait-figure figcaption{
+    font-size: 15px;
+}
+.p{
+    font-size: 2rem;
+}
+.news_2-title{
+    font-size: 2rem;
+}
+.news_2{
+    display: inline-flex;
+}
+.new_2-section{
+    border-right: 1px solid black;
+}
+.footer{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.news_bolivar2{
+    font-size: 3rem;
+}
+}
+@media(min-width:875px){
+.aside{
+    display: inline-block;
+}
+.news{
+    border-right: 2px solid black;
+}
+.new_2-section{
+    border-bottom: none;
+}
+.newslogo img{
+margin: 30px;
+}
+.aside p{
+    margin: 0;
+    font-size: initial;
+}
+.aside h6{
+    font-size: 15px;
+}
 }
